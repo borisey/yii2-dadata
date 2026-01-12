@@ -9,7 +9,9 @@ composer require borisey/yii2-dadata:"dev-main" --dev
 ```shell
     'components' => [
         'dadata' => [
-            'class' => \Borisey\Yii2Dadata\Dadata::class
+            'class'  => \Borisey\Yii2Dadata\Dadata::class,
+            'token'  => 'token',
+            'secret' => 'secret'
         ],
     ],
 ```
