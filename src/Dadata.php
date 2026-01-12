@@ -29,14 +29,15 @@ class Dadata extends Component
         ));
         curl_setopt($curl, CURLOPT_POST, 1);
 
-
         if ($fields != null) {
             curl_setopt($curl, CURLOPT_POST, 1);
             curl_setopt($curl, CURLOPT_POSTFIELDS, json_encode($fields));
         } else {
             curl_setopt($curl, CURLOPT_POST, 0);
         }
-        $result = $this->exec();
+
+        $result = curl_exec($curl);
+        $info   = curl_getinfo($curl);
         $result = json_decode($result, true);
 
         return $result;
