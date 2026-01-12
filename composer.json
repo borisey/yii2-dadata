@@ -15,7 +15,7 @@
     {
       "name": "Alexey Borisov",
       "email": "mail@borisey.com"
-    },
+    }
   ],
   "autoload": {
     "psr-4": {
