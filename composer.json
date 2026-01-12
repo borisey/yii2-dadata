@@ -1,0 +1,27 @@
+{
+  "name": "borisey/yii2-dadata",
+  "description": "Yii2 dadata",
+  "keywords": [
+    "dadata",
+    "yii2",
+    "php",
+    "hint",
+    "address",
+    "email",
+    "firm"
+  ],
+  "homepage": "https://borisey.com",
+  "authors": [
+    {
+      "name": "Alexey Borisov",
+      "email": "mail@borisey.com"
+    },
+  ],
+  "autoload": {
+    "psr-4": {
+      "Borisey\\Yii2Dadata\\": "src/"
+    }
+  },
+  "license": "MIT",
+  "version": "1.0.0"
+}
