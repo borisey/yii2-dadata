@@ -9,8 +9,8 @@ class Dadata extends Component
     const CLEANER_URL    = 'https://cleaner.dadata.ru/api/v1/clean/address';
     const SUGGESTION_URL = 'https://suggestions.dadata.ru/suggestions/api/4_1/rs/suggest';
 
-    public string $token;
-    public string $secret;
+    public string $apiKey;
+    public string $secretKey;
 
     public function getFirm()
     {
